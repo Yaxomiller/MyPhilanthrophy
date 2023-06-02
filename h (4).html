@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Donation Portal</title>
+  <link rel="stylesheet" href="c.css">
+</head>
+<body>
+  <header>
+    <h1>Donation Portal</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Donor Sign Up</h2>
+      <form id="donor-signup-form">
+        <div class="form-group">
+          <label for="donor-name">Name:</label>
+          <input type="text" id="donor-name" required>
+        </div>
+        <div class="form-group">
+          <label for="donor-email">Email:</label>
+          <input type="email" id="donor-email" required>
+        </div>
+        <div class="form-group">
+          <label for="donor-password">Password:</label>
+          <input type="password" id="donor-password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>NGO Sign Up</h2>
+      <form id="ngo-signup-form">
+        <div class="form-group">
+          <label for="ngo-name">Name:</label>
+          <input type="text" id="ngo-name" required>
+        </div>
+        <div class="form-group">
+          <label for="ngo-email">Email:</label>
+          <input type="email" id="ngo-email" required>
+        </div>
+        <div class="form-group">
+          <label for="ngo-password">Password:</label>
+          <input type="password" id="ngo-password" required>
+        </div>
+        <div class="form-group">
+          <button type="submit">Sign Up</button>
+        </div>
+      </form>
+    </section>
+
+    <section>
+      <h2>Login</h2>
+      <form id="login-form">
+        <div class="form-group">
+          <label for="login-email">Email:</label>
+          <input type="email" id="login-email" required>
+        </div>
+        <div class="form-group">
+          <label for="login-password">Password:</label>
+          <input type="password" id="login-password" required>
+        </div>
+        <div class="form-group">
+          <label for="user-type">User Type:</label>
+          <select id="user-type">
+            <option value="donor">Donor</option>
+            <option value="ngo">NGO</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <button type="submit">Login</button>
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <script src="j.js"></script>
+</body>
+</html>
